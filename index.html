@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Conception UI/UX</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top nav-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Mon Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Mon travail</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">Mehdi Semmar</h1>
+                <p class="hero-subtitle fade-in">Étudiant en génie logiciel | Université d'Ottawa</p>
+                <p class="hero-subtitle fade-in">Passionné par la création d'expériences utilisateur exceptionnelles</p>
+                <a href="#about" class="btn btn-custom btn-lg fade-in">Découvrir mon travail</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title fade-in">À propos de moi</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="about-card text-center fade-in">
+                        <div class="d-flex justify-content-center">
+                        <img src="assets/me.jpeg" alt="Photo de Mehdi Semmar" class="profile-img bg-gradient d-flex align-items-center justify-content-center">
+                        </div>
+                        <h3 class="mb-3">Bonjour, je suis Mehdi Semmar</h3>
+                        <p class="lead mb-4">
+                            Étudiant passionné en génie logiciel à l'Université d'Ottawa. 
+                            J'explore le monde fascinant du design UI/UX et j'apprends à créer des expériences 
+                            digitales qui allient esthétique et fonctionnalité.
+                        </p>
+                        <p>
+                            Mes centres d'intérêt incluent le design thinking, l'accessibilité numérique, 
+                            et l'innovation technologique. J'aime résoudre des problèmes complexes à travers 
+                            des solutions créatives et centrées sur l'utilisateur.
+                        </p>
+                        <div class="mt-4">
+                            <span class="badge bg-primary me-2">UI/UX Design</span>
+                            <span class="badge bg-secondary me-2">HTML/CSS</span>
+                            <span class="badge bg-success me-2">Bootstrap</span>
+                            <span class="badge bg-warning">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Comment je travaille</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="work-card fade-in">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-graduation-cap fa-2x text-primary me-3"></i>
+                            <h4>Ma formation actuelle</h4>
+                        </div>
+                        <p>
+                            Je suis actuellement étudiant en génie logiciel utilisateur à 
+                            l'Université d'Ottawa. Le cours de conception d'interfaces utilisateur me permet d'apprendre les principes 
+                            fondamentaux du design UI/UX, de la recherche utilisateur aux prototypes 
+                            interactifs.
+                        </p>
+                        <a href="https://www.uottawa.ca" class="text-primary text-decoration-none">
+                            <i class="fas fa-external-link-alt me-1"></i>
+                            Université d'Ottawa
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="work-card fade-in">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-lightbulb fa-2x text-warning me-3"></i>
+                            <h4>Mon approche</h4>
+                        </div>
+                        <p>
+                            J'adopte une approche méthodique basée sur les principes de design thinking 
+                            et les meilleures pratiques UX. Je m'inspire des ressources de référence 
+                            comme Nielsen Norman Group pour créer des interfaces intuitives et accessibles.
+                        </p>
+                        <a href="https://www.nngroup.com" class="text-primary text-decoration-none">
+                            <i class="fas fa-external-link-alt me-1"></i>
+                            Nielsen Norman Group
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="work-card fade-in">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-cogs fa-2x text-success me-3"></i>
+                            <h4>Processus de conception (en développement)</h4>
+                        </div>
+                        <p>
+                            Au cours de ce semestre, je développe mon processus de conception en intégrant 
+                            les concepts clés tels que la conception centrée sur l'utilisateur, l'évaluation 
+                            heuristique, les tests d'utilisabilité et les méthodes de prototypage. 
+                            Cette section évoluera avec mes apprentissages.
+                        </p>
+                        <div class="row mt-3">
+                            <div class="col-md-3 col-6 text-center">
+                                <i class="fas fa-search fa-2x text-muted mb-2"></i>
+                                <p class="small">Recherche</p>
+                            </div>
+                            <div class="col-md-3 col-6 text-center">
+                                <i class="fas fa-pencil-ruler fa-2x text-muted mb-2"></i>
+                                <p class="small">Conception</p>
+                            </div>
+                            <div class="col-md-3 col-6 text-center">
+                                <i class="fas fa-mouse-pointer fa-2x text-muted mb-2"></i>
+                                <p class="small">Prototypage</p>
+                            </div>
+                            <div class="col-md-3 col-6 text-center">
+                                <i class="fas fa-chart-line fa-2x text-muted mb-2"></i>
+                                <p class="small">Évaluation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Mes projets à venir</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="project-card fade-in">
+                        <div class="project-img">
+                            <i class="fas fa-briefcase-medical"></i>
+                        </div>
+                        <div class="project-content">
+                            <span class="coming-soon">À venir</span>
+                            <h4 class="project-title">Site de Services Professionnels</h4>
+                            <p class="text-muted">
+                                Conception d'un site web pour un service professionnel (dentiste, réparateur, coiffeur). 
+                                Focus sur l'expérience utilisateur et la facilité de prise de rendez-vous.
+                            </p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-1">UI Design</span>
+                                <span class="badge bg-light text-dark me-1">Responsive</span>
+                                <span class="badge bg-light text-dark">Services</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="project-card fade-in">
+                        <div class="project-img">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-content">
+                            <span class="coming-soon">À venir</span>
+                            <h4 class="project-title">Mini Jeu Interactif</h4>
+                            <p class="text-muted">
+                                Développement d'un petit jeu web interactif combinant design ludique et 
+                                mécaniques de jeu engageantes. Exploration des interfaces de gaming.
+                            </p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-1">Game Design</span>
+                                <span class="badge bg-light text-dark me-1">JavaScript</span>
+                                <span class="badge bg-light text-dark">Interactif</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="project-card fade-in">
+                        <div class="project-img">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-content">
+                            <span class="coming-soon">À venir</span>
+                            <h4 class="project-title">Site E-commerce</h4>
+                            <p class="text-muted">
+                                Création d'une plateforme e-commerce moderne avec focus sur l'expérience 
+                                d'achat, la navigation intuitive et la conversion utilisateur.
+                            </p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-1">E-commerce</span>
+                                <span class="badge bg-light text-dark me-1">UX</span>
+                                <span class="badge bg-light text-dark">Conversion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="project-card fade-in">
+                        <div class="project-img">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="project-content">
+                            <span class="coming-soon">À venir</span>
+                            <h4 class="project-title">Plateforme d'Analyse & Visualisation</h4>
+                            <p class="text-muted">
+                                Interface de business intelligence avec tableaux de bord interactifs 
+                                pour l'analyse de données (sport, finances, etc.).
+                            </p>
+                            <div class="mt-3">
+                                <span class="badge bg-light text-dark me-1">Data Viz</span>
+                                <span class="badge bg-light text-dark me-1">Analytics</span>
+                                <span class="badge bg-light text-dark">Dashboard</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h5 class="mb-3">Restons en contact</h5>
+                    <div class="social-links mb-4">
+                        <a href="https://www.linkedin.com/in/mehdi-semmar-946a1b27b/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/FtKuBo"><i class="fab fa-github"></i></a>
+                        <a href="mailto:msemm031@uottawa.ca"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <p class="mb-0">&copy; 2025 Mon Portfolio. Conçu avec passion pour la création d'expériences exceptionnelles.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
